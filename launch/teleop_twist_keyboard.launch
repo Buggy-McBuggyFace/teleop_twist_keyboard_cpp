@@ -1,0 +1,6 @@
+<launch>
+    <!-- rosrun teleop_twist_keyboard_cpp -->
+  <node pkg="teleop_twist_keyboard_cpp" type="teleop_twist_keyboard"
+        name="fake_object_teleop" output="screen" launch-prefix="gnome-terminal --command">
+  </node>
+</launch>
